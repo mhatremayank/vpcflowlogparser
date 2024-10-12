@@ -39,7 +39,7 @@ DIRECTORY STRUCTURE:
         └── protocol_number_mapper.py
 ```
 
-# How to run this program:
+# How to run this program?
 This program can be run as a module in following way
 <!-- (Make sure to be outside the parent module path to avoid ModuleNotFoundError: No module named 'vpcflowlogparser' error) -->
 ```$ python3 -m vpcflowlogparser.flow_data_parser.fparser```
