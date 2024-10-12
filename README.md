@@ -18,6 +18,27 @@ Assumptions:
 Prerequisites:
 - User need to have flowlog file at /flow_datastore/ and lookup table file at /lookup_table_store
 
+```
+DIRECTORY STRUCTURE:
+├── LICENSE
+    ├── README.md
+    ├── __init__.py
+    ├── flow_data_parser
+    │   ├── __init__.py
+    │   └── fparser.py
+    ├── flow_datastore
+    │   ├── __init__.py
+    │   └── flowlogs_v2.txt
+    ├── lookup_table_store
+    │   ├── __init__.py
+    │   └── lookup_table.txt
+    ├── main.py
+    └── protocol_mapper
+        ├── __init__.py
+        ├── protocol-numbers-1.csv
+        └── protocol_number_mapper.py
+```
+
 How to run this program:
 This program can be run as a module in following way
 <!-- (Make sure to be outside the parent module path to avoid ModuleNotFoundError: No module named 'vpcflowlogparser' error) -->
