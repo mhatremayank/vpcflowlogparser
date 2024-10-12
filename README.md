@@ -54,3 +54,7 @@ Output Files will be created at:
 ```vpcflowlogparser/flow_data_parser/tag_count.log```
 ```vpcflowlogparser/flow_data_parser/port_proto_count.log```
 
+Flow Diagram:
+![image](https://github.com/user-attachments/assets/5b3c5b51-b771-4533-95ab-fad806f70b6f)
+
+
