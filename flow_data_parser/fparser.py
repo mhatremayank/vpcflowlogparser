@@ -169,6 +169,6 @@ if __name__ == "__main__":
     tc, ppc = flpobj.flow_tag_count_logger()
     print(f"Flow-tags and their count of occurence in the flow log: {tc}")
     print(f"Port/Protocol combination counts in the flow log: {ppc}")
-    print(f"OUTPUT is stored at follwoing files: \n vpcflowlogparser/flow_data_parser/tag_count.log \n vpcflowlogparser/flow_data_parser/port_proto_count.log")
+    print(f"OUTPUT is stored at following files: \n vpcflowlogparser/flow_data_parser/tag_count.log \n vpcflowlogparser/flow_data_parser/port_proto_count.log")
     flpobj.data_logger()
 
