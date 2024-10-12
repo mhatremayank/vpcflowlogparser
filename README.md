@@ -23,13 +23,13 @@ This program can be run as a module in following way
 <!-- (Make sure to be outside the parent module path to avoid ModuleNotFoundError: No module named 'vpcflowlogparser' error) -->
 ```$python3 -m vpcflowlogparser.flow_data_parser.fparser```
 
-Expectec Output:
+Expected Output:
 ```
 Flow-tags and their count of occurence in the flow log: {'untagged': 8, 'sv_p2': 1, 'sv_p1': 2, 'email': 7}
 Port/Protocol combination counts in the flow log: {(49153, 'tcp'): 1, (49154, 'tcp'): 1, (49155, 'tcp'): 1, (49156, 'tcp'): 1, (49157, 'tcp'): 1, (49158, 'tcp'): 1, (80, 'tcp'): 1, (1024, 'tcp'): 1, (443, 'tcp'): 1, (23, 'tcp'): 1, (25, 'tcp'): 1, (110, 'tcp'): 1, (993, 'tcp'): 3, (143, 'tcp'): 3}
 ```
 
 Output Files will be created at:
-vpcflowlogparser/flow_data_parser/tag_count.log
-vpcflowlogparser/flow_data_parser/port_proto_count.log
+```vpcflowlogparser/flow_data_parser/tag_count.log```
+```vpcflowlogparser/flow_data_parser/port_proto_count.log```
 
