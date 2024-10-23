@@ -1,6 +1,6 @@
 # vpcflowlogparser
 This tool analyzes and produces matching records for flow logs of a given VPC
-The maximum file size for a default flow log in Amazon Web Services (AWS) is 10 MB for this tool
+The maximum file size for a default flow log in Amazon Web Services (AWS) is 10-75 MB for this tool
 
 https://docs.aws.amazon.com/global-accelerator/latest/dg/monitoring-global-accelerator.flow-logs.htm
 
